@@ -9,7 +9,7 @@ public class Sorter{
         selectionSort(array);
     }
     public static void sort(int array[]){
-        selectionSort(array);
+        sortInsertion(array);
     }
 
     public static void selectionSort(int array[]) {
