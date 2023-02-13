@@ -5,6 +5,9 @@ public class Sorter{
         printarrayay(array);
 
     }
+    public static void sort(int[] array){
+        selectionSort(array);
+    }
     public static void sort(int array[]){
         selectionSort(array);
     }
